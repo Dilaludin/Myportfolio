@@ -91,7 +91,7 @@ border-top:4px solid white;
     position:relative;
     align-content: end;
     margin-right: 7.5vw; 
-    display: none;    
+       
 }
 .tiny-card {
   width:100%;
@@ -101,6 +101,7 @@ border-top:4px solid white;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
+ 
 }
 .tiny-card:hover {
   transform: scale(1.05);
@@ -148,12 +149,15 @@ border-top:4px solid white;
   .cardsec{
     flex-direction: column;
     justify-content: center;
-    margin:0%;
-    left: 40px;
+    margin:auto;
     width:75%;
     height: 300px;
     position:relative;
     z-index: 2; 
+  }
+  .tiny-card {
+    display: block;
+    margin: auto;
   }
 }
 
