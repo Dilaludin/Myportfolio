@@ -90,7 +90,8 @@ border-top:4px solid white;
     gap:10px;
     position:relative;
     align-content: end;
-    margin-right: 7.5vw;     
+    margin-right: 7.5vw; 
+    display: none;    
 }
 .tiny-card {
   width:100%;
