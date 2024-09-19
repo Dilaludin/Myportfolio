@@ -1,0 +1,9 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#fullcontainer{
+    background-image: url(./cool-background\ \(1\).jpg);
+}
