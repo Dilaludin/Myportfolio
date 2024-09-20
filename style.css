@@ -194,7 +194,7 @@ a{
   #cvbtn{
     display: block;
     margin: auto; 
-    margin-bottom: 120px;
+    margin-bottom: 200px;
   }
  
   #profile1{
@@ -211,10 +211,12 @@ a{
     height: 300px;
     position:relative;
     z-index: 2; 
+    margin-bottom: 200px;
   }
   .tiny-card {
     display: block;
     margin: auto;
+    
   }
   a{
     width: auto;
@@ -231,9 +233,16 @@ a{
     margin: auto;
   }
   #iconcontainer{
-    width: 100px;
-    left: 0%;
-    top: 0%;
+    position: relative;
+    left: -20%;
+    top:-190%; 
+  }
+  #privateicon a{
+    margin-bottom: 7px;
+  }
+  #privateicon img{
+    width: 20px;
+    height: 20px;
   }
 }
 
