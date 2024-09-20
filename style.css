@@ -13,6 +13,24 @@
     background-size: cover;
   
 }
+.glow{
+  overflow: hidden;
+  font-size: 1.6rem;
+  width: 0;
+  white-space:nowrap;
+  animation: typing 3s infinite;
+  font-weight: 600;
+  color:white;
+  margin-top: 5px;
+}
+.port{
+  display: inline-block;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
 #navbtn{
   width: 25px;
   height: 25px;
@@ -32,12 +50,13 @@ border-top:4px solid white;
 }
 #profile1{
     bottom: 0;
-    width: 800px;
+    width: 900px;
     left: -120px;
     background-position: center;
     background-size: cover;
     filter:drop-shadow(1px 18px 105px rgba(45,255,196,1));
     position:absolute;   
+
 }
 #profile2{
   bottom: 0;
@@ -73,6 +92,7 @@ marquee{
   box-shadow: 0 4px 15px 0 #006699;
   width: 150px;
   animation: example 1s infinite; 
+  margin-bottom: 10px;
 }
 
 @keyframes example {
@@ -103,7 +123,7 @@ marquee{
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 1.5);
   transition: transform 0.2s;
-  background-color: rgb(255, 255, 255 , 0.5);
+  background-color: rgb(255, 255, 255 , 0.2);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   
@@ -136,6 +156,27 @@ a{
   text-decoration: none !important;
   width: 200px;
 }
+#iconcontainer{
+ width: 200px;
+ position: relative;
+ top: -450px;
+ left: -550px;
+ justify-content: center;
+ 
+ 
+}
+#privateicon a{
+  margin-bottom: 30px;  
+  position: relative;
+}
+
+
+
+#privateicon img{
+  width: 60px;
+  height: 60px;
+}
+
 
 /*........responsive site.........*/
 @media screen and (max-width:400px) {
@@ -184,6 +225,15 @@ a{
     background-image: url(./image/background.jpg);
     background-position: center;
     background-size: cover;
+  }
+  #markq{
+    display: block;
+    margin: auto;
+  }
+  #iconcontainer{
+    width: 100px;
+    left: 0%;
+    top: 0%;
   }
 }
 
