@@ -50,8 +50,11 @@ border-top:4px solid white;
   border-bottom: 5px solid rebeccapurple;
   border-radius: 50%; 
 }
-
+marquee{
+  width: 290px;
+}
 #headname{
+    
     font-weight: 700;
     font-size:4vw;
     margin-bottom: 0%;
