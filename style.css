@@ -104,7 +104,7 @@ marquee{
 }
 #textcontent{
   display: flex;
-  position: relative;
+  display: block;
 }
 .cardsec {
     margin: 0;
@@ -160,7 +160,7 @@ a{
 }
 #iconcontainer{
  width: 200px;
- position: absolute;
+ position:absolute;
 
 }
 #privateicon a{
