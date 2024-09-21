@@ -267,7 +267,8 @@ a{
   #iconcontainer2{
     
     display: block;
-    position: absolute;
+    position: relative;
+    margin-bottom: -150px;
   }
   #privateicon2 a{
     display: flex;
