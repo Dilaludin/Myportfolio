@@ -65,6 +65,8 @@ border-top:4px solid white;
   display:none;
   border-bottom: 5px solid rebeccapurple;
   border-radius: 50%; 
+  
+  
 }
 marquee{
   width: 290px;
@@ -176,6 +178,10 @@ a{
   width: 200px;
   display: none;
 }
+#privateicon2{
+  width: 100px;
+  display: flex;
+}
 #privateicon2 a{
   display: flex;
   margin: 20px 20px;
@@ -224,6 +230,7 @@ a{
   }
   #profile2{
     display:block;
+    margin: auto;
   }
   .cardsec{
     flex-direction: column;
@@ -252,6 +259,7 @@ a{
     position: relative;
     left: 40%;
     top:-190%; 
+    display: none;
     
   }
   #privateicon a{
@@ -261,14 +269,10 @@ a{
     width: 20px;
     height: 20px;
   }
-  #iconcontainer{
-    display: none;
-  }
-  #iconcontainer2{
-    
-    display: block;
-    position: relative;
-    margin-bottom: -150px;
+
+  #iconcontainer2{ 
+    display: block;  
+    margin: auto;
   }
   #privateicon2 a{
     display: flex;
