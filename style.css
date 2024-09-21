@@ -105,6 +105,10 @@ marquee{
   filter:drop-shadow(1px 2px 15px rgba(45,255,196,1))
 
 }
+#textcontent{
+  display: flex;
+  position: relative;
+}
 .cardsec {
     margin: 0;
     padding: 20px;
@@ -158,25 +162,29 @@ a{
 }
 #iconcontainer{
  width: 200px;
- position: relative;
- top: -450px;
- left: -550px;
- justify-content: center;
- 
- 
+ position: absolute;
+
 }
 #privateicon a{
-  margin-bottom: 30px;  
-  position: relative;
+  display: flex;
+  margin: 20px 20px;
 }
-
-
-
 #privateicon img{
   width: 60px;
   height: 60px;
 }
-
+#iconcontainer2{
+  width: 200px;
+  display: none;
+}
+#privateicon2 a{
+  display: flex;
+  margin: 20px 20px;
+}
+#privateicon2 img{
+  width: 60px;
+  height: 60px;
+}
 
 /*........responsive site.........*/
 @media screen and (max-width:400px) {
@@ -236,6 +244,7 @@ a{
     position: relative;
     left: 40%;
     top:-190%; 
+    
   }
   #privateicon a{
     margin-bottom: 7px;
@@ -243,6 +252,22 @@ a{
   #privateicon img{
     width: 20px;
     height: 20px;
+  }
+  #iconcontainer{
+    display: none;
+  }
+  #iconcontainer2{
+    
+    display: block;
+    position: absolute;
+  }
+  #privateicon2 a{
+    display: flex;
+    margin: 20px 20px;
+  }
+  #privateicon2 img{
+    width: 30px;
+    height: 30px;
   }
 }
 
