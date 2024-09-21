@@ -197,7 +197,7 @@ a{
 @media screen and (max-width:400px) {
   #holebody{
     width: 100%;
-    height:auto;
+    height: 150vh;
     background-color:#090d28;
   
 }
