@@ -6,7 +6,7 @@
 }
 #holebody{
     width: 100%;
-    height:auto;
+    height: 100vh;
     background-color:#090d28;
   
 }
@@ -182,6 +182,16 @@ a{
   width: 60px;
   height: 60px;
 }
+.foot{
+  display: none;
+}
+.pp{
+  filter:drop-shadow(1px 1px 50px rgba(45,255,196,1));
+  font-size:10px ;
+  bottom: 0;
+  margin-top: 30%;
+ 
+}
 
 /*........responsive site.........*/
 @media screen and (max-width:400px) {
@@ -259,6 +269,9 @@ a{
   #privateicon2 img{
     width: 30px;
     height: 30px;
+  }
+  .foot{
+    display:block;
   }
 }
 
