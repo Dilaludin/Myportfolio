@@ -115,6 +115,7 @@ marquee{
     position:relative;
     align-content: end;
     margin-right: 7.5vw; 
+   
           
 }
 .tiny-card {
@@ -189,10 +190,17 @@ a{
   filter:drop-shadow(1px 1px 50px rgba(45,255,196,1));
   font-size:10px ;
   bottom: 0;
+  margin-top: 70px;
 }
 
 /*........responsive site.........*/
 @media screen and (max-width:400px) {
+  #holebody{
+    width: 100%;
+    height: 220vh;
+    background-color:#090d28;
+  
+}
   #headname{
     font-size: 30px;
     text-align: center;
@@ -200,6 +208,9 @@ a{
   #headname1{
     text-align: center;
     font-size:10px;
+  }
+  #glow{
+    font-size: 20px;
   }
   #ppp{
     text-align: center;
